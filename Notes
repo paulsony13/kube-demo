@@ -1,0 +1,29 @@
+Docker is awesome - Tell about Containerziation and Docker Features briefly
+Setup New hardware for another contaier
+LoadBalancer Complexity each time add new nodes
+Update website
+SOme how automate thisorchrestrat this , this s Kube 8 comes in
+Kubernetes gona help docker get better
+
+
+
+
+
+========================================
+1
+Show Diagrams
+2
+=======================================
+
+Describe basic compnents of k8
+
+==========================
+
+Demo RUN K8 Adhoc cammnds to deploy pod
+
+Describe schuder
+===========================
+
+More powerfull and organised method writing manifest files
+
+

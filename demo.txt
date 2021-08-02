@@ -1,0 +1,21 @@
+sudo docker run -d -p80:8501 paulsony/kubedemo:v1
+
+
+gcloud auth application-default login
+gcloud config set project my-kubernetes-317414
+gcloud container clusters get-credentials my-kubernetes-317414-gke --zone us-central1 --project my-kubernetes-317414
+kubectl get nodes
+
+
+kubectl run webapp --image=paulsony/kubedemo:v1 --port=80
+kubectl get nodes
+kubectl describe nodes
+kubectl apply -f deployment.yml
+kubectl get deployments
+kubectl get services
+
+paulsony/kubedemo:v1
+paulsony/kubedemo:v2
+
+
+
